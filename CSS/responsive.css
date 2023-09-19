@@ -1,0 +1,211 @@
+@media (max-width: 375.97px) {
+    .header{
+        display: none;
+    }
+    #cardBlog{
+        width: 17rem;
+    }
+    .card-body p,.card-body a{
+        font-size: small;
+    }
+    #discount{
+        width: 250px;
+        height: 250px;
+    }
+    .discText{
+        padding-top: 80px;
+    }
+    #disc-time {
+        right: -10px;
+        width: 120px;
+        height: 120px;
+    }
+    .discText2 h5,.discText2h4{
+        font-size: x-small;
+    }
+    .discText2{
+        padding-top: 40px;
+    }
+    }
+/*---X-Small devices (less than 576px)---*/
+
+@media (max-width: 575.98px) and (min-width: 375.98px) {
+.header{
+    display: none;
+}
+#main__article h1{
+    font-size: 40px;  
+    font-weight: 800; 
+    width: auto;
+}
+#main__article div h5{
+    font-size: 14px;
+}
+#main__article h5{
+    font-size: 13px;
+}
+#btn__blog{
+    width: fit-content;
+    margin-bottom: 30px;
+}
+#cardBlog{
+    margin: 30px auto;
+}
+#discount{
+    width: 300px;
+    height: 300px;
+}
+.discText{
+    padding-top: 100px;
+}
+#disc-time {
+    right: -10px;
+    width: 130px;
+    height: 130px;
+}
+.discText2 h5,.discText2h4{
+    font-size: x-small;
+}
+.discText2{
+    padding-top: 40px;
+}
+}
+
+/*---Small devices (less than 768px)---*/
+@media (max-width: 767.98px)  and (min-width: 575.99px) {
+.header{
+    display: none;
+}
+#discount{
+    width: 400px;
+    height: 400px;
+}
+.discText{
+    padding-top: 150px;
+}
+#disc-time {
+    right: 15%;
+    width: 140px;
+    height: 140px;
+}
+.discText2 h5,.discText2h4{
+    font-size: small;
+}
+.discText2{
+    padding-top: 40px;
+}
+}
+
+/*---Medium devices (tablets, less than 992px)---*/
+@media (max-width: 991.98px)  and (min-width:  767.98px) {
+.header{
+    display: none;
+}
+#discount{
+    width: 430px;
+    height: 430px;
+}
+.discText{
+    padding-top: 150px;
+}
+#disc-time {
+    right: 25%;
+    width: 150px;
+    height: 150px;
+}
+.discText2 h5,.discText2h4{
+    font-size: smaller;
+}
+.discText2{
+    padding-top: 50px;
+}
+}
+/*--- Large devices (desktops, less than 1200px)---*/
+@media (max-width: 1199.98px) and (min-width: 991.99px){
+#hidden{
+    display: none;
+}
+}
+
+/*--- X-Large devices (large desktops, less than 1400px)---*/
+@media (min-width: 1199.99px) {
+#hidden{
+    display: none;
+}
+.header__top-list1{
+    width: 27%;
+}
+#disc-time {
+    right: 35%;
+    width: 180px;
+    height: 180px;
+}
+.discText2 h5,.discText2h4{
+    font-size: smaller;
+}
+.discText2{
+    padding-top: 60px;
+}
+}
+
+/*----hidden menu-----*/
+
+#hidden{
+    padding: 20px;
+}
+#hidden img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hidden__btn{
+    background-color: white;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*----hover for hidden menu ----*/
+#hoverMenu{
+    background-color: rgb(0, 162, 255);
+    display: none;
+}
+#hover__btn{
+    color: white;
+    display: block;
+    padding: 10px;
+    float: right;
+    background-color:  rgb(0, 162, 255);
+    border:  rgb(0, 162, 255);
+}
+.hoverMenu__list{
+    padding: 20px;
+}
+.hoverMenu__list li{
+    padding-bottom: 10px;
+}
+.hoverMenu__list a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+/*-----hover header menu-------*/
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+
+  .hoverMenu__list li:hover{
+    background-color: #35bdea;
+  }
+  .hoverMenu__list li ul li:hover{
+    background-color: #1795bf;
+  }
+  .hoverMenu__list li ul li{
+    margin-right: 30px;
+  }
+/*-----end of hover header menu-------*/
