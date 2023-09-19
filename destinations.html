@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinations</title>
+  <link rel="icon" type="image" href="images/head__logo.png">
+  <link rel="stylesheet" href="css/tour.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  <script src="JS/main.js"></script>
+
+</head>
+
+<body>
+    <div>
+
+         <!--start of header-->
+         <div class="header">
+            <div class="header__top">
+                <ul class="header__top-list">
+                    <li>
+                        <i class="fa fa-globe" ></i>
+                    </li>
+                    <li>
+                        <a href="index.html">LANGUAGES</a>
+                    </li>
+                    <li>
+                        <a href="index.html">EN</a>
+                    </li>
+                    <li>
+                        <a href="index.html">VN</a>
+                    </li>
+                    <li>
+                        <a href="index.html">OUR SOCIAL</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-facebook" ></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-twitter"></i>
+                    </li>
+                </ul>
+                <ul class="header__top-list1">
+                    <li>
+                        <i class="fa fa-heart-o" style="color: white;"></i>
+                    </li>
+                    <li>
+                        <a href="#tour">TOUR PACKAGES</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone" style="color: white;"></i>
+
+                    </li>
+                    <li>
+                        <a href="index.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__btm">
+                <img src="images/head__logo.png" alt="Page Logo" style="width: 10%; margin-left: 60px; padding: 10px;">
+                <ul class="header__btm-list">
+                    <li>
+                        <div class="btn">
+                            <a href="index.html">HOME</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn dropdown">
+                            <button
+                              class="btn btn-white dropdown-toggle"
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              PACKAGES
+                            </button>
+                            <ul class="btn dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="tour.html" target="_blank">Tour Packages</a></li>
+                                <li><a class="dropdown-item" href="destinations.html">Destinations</a></li>
+                              </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn dropdown">
+                            <button
+                              class="btn btn-white dropdown-toggle"
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              SHOP
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                              </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn">
+                            <a class="nav-link" href="#footer" style="text-align: center;">ABOUT US</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn dropdown">
+                            <button
+                              class="btn btn-white dropdown-toggle"
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              ARTICLES
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="news.html">Travel News</a></li>
+                                <li><a class="dropdown-item" href="tour.html" target="_blank">Alternative Trips</a></li>
+                              </ul>
+                        </div>                    
+                    </li>
+                    <li>
+                        <div class="btn">
+                            <a class="nav-link" href="#footer">CONTACT</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="btn__headBtm" href="cart.html">BOOK NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--end of header-->
+   
+           
+           <!----hidden header menu section----->
+           <div id="hidden">
+               <div>
+                   <img src="images/head__logo.png" style="width: 18%;" alt="Head Logo">
+               </div>
+               <div>
+                   <button id="hidden__btn" onclick="HideShow()">
+                       <i class="fa fa-bars"></i>
+                   </button>
+               </div>
+   
+           </div>
+           <!---- end of hidden header menu section----->
+   
+   
+   
+           <!---- start of hover hidden menu section----->
+           <div id="hoverMenu">
+               <div>
+                   <button id="hover__btn" onclick="HideShow()">
+                       <i  class="fa fa-close"></i>
+                   </button>
+               </div>
+               <div class="hoverMenu">
+                   <ul class="hoverMenu__list">
+                       <li>
+                           <a href="index.html">HOME</a>
+                       </li>
+                       <li>
+                           <a href="#">PACKAGES</a>
+                           <ul>
+                               <li><a class="dropdown-item" href="tour.html">Tour Packages</a></li>
+                               <li><a class="dropdown-item" href="destinations.html">Destinations</a></li>
+                           </ul>
+                       </li>
+                       <li>
+                           <a href="/">SHOP</a>
+                           <ul>
+                               <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                           </ul>
+                       </li>
+                       <li><a href="#footer">ABOUT US</a></li>
+                       <li>
+                           <a href="/">ARTICLES</a>
+                           <ul>
+                               <li><a class="dropdown-item" href="news.html">Travel News</a></li>
+                               <li><a class="dropdown-item" href="tour.html">Alternative Trips</a></li>
+                           </ul>
+                       </li>
+                       <li><a class="nav-link" href="#footer">CONTACT</a></li>
+   
+                   </ul>
+               </div>
+           </div>
+           <!---- end of hover hidden menu section----->
+           
+
+        <div style="padding: 0px 6px 40px;">
+        
+             <!--search tour destination-->
+             <body>
+                <div id="tour">
+                    <h2 class="text-center mt-2"> Search Your Destinations </h2>
+                
+                    <input type="text" class="form-control mt-3 mx-auto" id="myinput" placeholder="type destination here...." style="width:30%;">
+                
+                </div>
+                   
+                
+                <div class="container mb-5">
+                    <h3 class="text-danger mt-5 text-center" id="para" style="display: none;">Not Found </h3>
+                    
+                    <div class="row mt-3" id="card">
+                
+                    </div>
+                
+                </div>
+                <!-----end of search tour destination----->
+    
+                
+                <!---script for search bar---->
+                <script>
+                    // filter array 
+                let filterarray =[];
+                
+                // gallery card array
+                
+                let galleryarray = [
+                    {
+                        id:1,
+                        name : "ha noi",
+                        src: "images/hanoi.jpg",
+                        desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, delectus."
+                    },
+                    {
+                        id:2,
+                        name : "ho chi minh",
+                        src: "images/hcmc.jpg",
+                        desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, delectus."
+                    },
+                    {
+                        id:3,
+                        name : "da nang",
+                        src: "images/danang.jpg",
+                        desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, delectus."
+                    },
+                    {
+                        id:4,
+                        name : "hue",
+                        src: "images/hue.jpg",
+                        desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, delectus."
+                    },
+                    {
+                        id:5,
+                        name : "quy nhon",
+                        src: "images/quynhon.jpg",
+                        desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, delectus."
+                    },
+                    {
+                        id:6,
+                        name : "phu quoc",
+                        src: "images/phuquoc.jpg",
+                        desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, delectus."
+                    },
+                      
+                   ];
+                
+                
+                
+                showgallery(galleryarray);
+                // create function to show card
+    
+                function showgallery(curarra){
+                   document.getElementById("card").innerText = "";
+                   for(var i=0;i<curarra.length;i++){
+                       document.getElementById("card").innerHTML += `
+                        <div class="col-md-4 mt-3" >
+                           <div class="card p-3 ps-5 pe-5">
+                               <h4 class="text-capitalize text-center">${curarra[i].name}</h4>
+                
+                          <img src="${curarra[i].src}" width="100%" height="auto"/>
+                          <p class="mt-2">${curarra[i].desc}</p>
+                          <button class="btn btn-primary w-100 mx-auto">More</button>
+                       
+                          </div>
+                          </div>
+                       `
+                   }
+                
+                }
+                
+                // For Live Searching Product
+                
+                document.getElementById("myinput").addEventListener("keyup",function(){
+                    let text = document.getElementById("myinput").value;
+                
+                    filterarray= galleryarray.filter(function(a){
+                        if(a.name.includes(text)){
+                            return a.name;
+                           }
+                
+                   });
+                   if(this.value==""){
+                       showgallery(galleryarray);
+                   }
+                   else{
+                       if(filterarray == ""){
+                           document.getElementById("para").style.display = 'block'
+                           document.getElementById("card").innerHTML = ""; 
+                       }
+                       else{
+                
+                           showgallery(filterarray);
+                           document.getElementById("para").style.display = 'none'
+                       }
+                   }
+                
+                });
+                
+                </script>
+                <!--- end of script----> 
+
+       </div>
+
+       
+        <!---footer--->
+        <footer style="background-image: url(images/footer.jpg); width: 100%;">
+            <div id="footer">
+                <div id="footer__contact" class="container-fluid">
+                    <div  class="row">
+                        <div id="footer__contactText" class="col col-lg-6 col-md-6 col-sm-12 col-12">
+                            <h5>KEEP IN TOUCH</h5>
+                            <h3 style="font-size: 40px;">Travel with Us</h3>
+                        </div>
+                        <div id="footer__contactInput" class="col col-lg-6 col-md-6 col-sm-12 col-12">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div id="contact" class="container-fluid">
+                            <div class="row">
+                                <div id="contact__info" class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <img src="images/head__logo.png" alt="Logo">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh condimentum venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.</p>
+                                </div>
+    
+    
+                                <div id="footer__item" class="col col-lg-2 col-md-4 col-sm-6 col-12">
+                                    <h3>OUR AGENCY</h3>
+                                    <ul>
+                                        <li><i class="fa fa-angle-right"></i> Services</li>
+                                        <li><i class="fa fa-angle-right"></i> Insurance</li>
+                                        <li><i class="fa fa-angle-right"></i> Agency</li>
+                                        <li><i class="fa fa-angle-right"></i> Tourism</li>
+                                        <li><i class="fa fa-angle-right"></i> Payment</li>
+                                    </ul>
+                                </div>
+    
+    
+                                <div id="footer__item" class="col col-lg-2 col-md-4 col-sm-6 col-12">
+                                    <h3>PARTNERS</h3>
+                                    <ul>
+                                        <li><i class="fa fa-angle-right"></i> Booking</li>
+                                        <li><i class="fa fa-angle-right"></i> RentalCar</li>
+                                        <li><i class="fa fa-angle-right"></i> HostelWorld</li>
+                                        <li><i class="fa fa-angle-right"></i> Trivago</li>
+                                        <li><i class="fa fa-angle-right"></i> TripAdvisor</li>
+                                    </ul>
+                                </div>
+    
+    
+                                <div id="footer__item" class="col col-lg-2 col-md-4 col-sm-12 col-12">
+                                    <h3>DESTINATIONS</h3>
+                                    <ul>
+                                        <li><i class="fa fa-angle-right"></i> TpHCM</li>
+                                        <li><i class="fa fa-angle-right"></i> Hà Nội</li>
+                                        <li><i class="fa fa-angle-right"></i> Quảng Bình</li>
+                                        <li><i class="fa fa-angle-right"></i> Bình Thuận</li>
+                                        <li><i class="fa fa-angle-right"></i> Bà Rịa - Vũng Tàu</li>
+                                    </ul>
+                                </div>
+                            </div>
+                </div>
+                
+                <div style="height: 40px;"></div>
+            </div>
+        </footer>
+        <!----end of footer------>
+    </div>
+    
+    
+
+  
+</body>
+</html>
